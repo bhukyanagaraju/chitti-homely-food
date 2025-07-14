@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chitti Homely Food</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .contact {
+      background: #f3f3f3;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .contact a {
+      color: #ff6f61;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 600px) {
+      .gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gallery img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chitti Homely Food</h1>
+    <p>Delicious Homemade Chapathis & Chicken Curry</p>
+  </header>
+
+  <div class="gallery">
+    <img src="images/chapathi1.jpg" alt="Masala Chapathi">
+    <img src="images/chapathi2.jpg" alt="Plain Chapathi">
+    <img src="images/chicken-curry.jpg" alt="Chicken Curry">
+  </div>
+
+  <div class="contact">
+    <p>📞 Call us: <a href="tel:+919963303991">+91 99633 03991</a></p>
+    <p>📧 Email: <a href="mailto:bhukyanagaraju219@gmail.com">bhukyanagaraju219@gmail.com</a></p>
+  </div>
+
+</body>
+</html>
